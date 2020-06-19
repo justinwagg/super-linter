@@ -32,7 +32,7 @@ RUN apk add --no-cache \
 #####################
 # Run Pip3 Installs #
 #####################
-RUN pip3 --no-cache-dir install --upgrade --no-cache-dir \
+RUN pip3 install --upgrade \
     yamllint pylint yq
 
 ####################
